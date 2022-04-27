@@ -26,9 +26,9 @@ body {
     color: rgb(255, 255, 255);  
 }
 
-.logo{
-    height: 30px;
-    width: auto; 
+ nav img{
+    max-width : 250px;
+    height: auto; 
 }
 
 ul .navbar{
@@ -47,3 +47,24 @@ li a:hover {
     color: white;
 }
 
+/*media@ navbar */
+ @media screen and (max-width: 800px) {
+    .navbar  {
+        float: none;
+        display: block;
+        border-top: 1px solid transparent;
+        box-shadow: inset 0 1px 0 rgba(255,255,255,0.1);
+        margin: 4px -15px; 
+        font-size: 15px;
+        
+        
+        
+           
+    }
+}
+ @media screen and (max-width:600px) {
+    nav img {
+        max-width: 100px;
+        
+    }
+}
