@@ -73,7 +73,7 @@ li a:hover {
 /* section high page*/
 .high-page {
     display: grid;
-    grid-template-columns: 1fr 40% 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
     margin: 10px;
     padding: 2px;
     background-color: rgba(240, 248, 255, 0.797);
@@ -82,7 +82,6 @@ li a:hover {
 section img {
     max-width: 500px;
     height: auto;
-
 }
 
 .propos p {
@@ -101,7 +100,7 @@ section img {
     color: #094f7d;
     margin: 2px;
     color: rgb(255, 255, 255);
-    font-size: 20px; 
+    font-size: 15px; 
     line-height: 16px; 
     padding: 8px; 
     border-radius: 12px; 
@@ -125,6 +124,27 @@ menu ol {
     text-align: center;
     align-items: center;
     padding: 6px;
+}
+/*Variante highpage2 sur les pages pays*/
+.high-page2 {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    margin: 10px;
+    padding: 2px;
+    background-color: rgba(240, 248, 255, 0.797);
+}
+
+.high-page2 h2 {
+    color: #094f7d;
+    text-align: center;
+    padding-top: 15px;
+    padding-bottom: 20px;
+}
+
+.high-page2 img {
+    margin-top: 15px;
+    max-width: 600px;
+    height: auto;
 }
 
 /*section why mise en page*/
@@ -151,7 +171,7 @@ p {
 
 .why .point3 img {
     
-    max-width : 800px;
+    max-width : 700px;
     height: auto;
     display: block;
     margin-top: 20px;
