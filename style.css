@@ -105,15 +105,16 @@ ol a:hover {
 
 /* footer*/
 .footer-basic {
-    padding:40px 0;
-    background-color:#ffffff;
+    padding:15px 0;
+    background-color: rgba(240, 248, 255, 0.797);
     color:#4b4c4d;
   }
   
   .footer-basic ul {
     padding:0;
     list-style:none;
-    text-align:center;
+    display: flex;
+    justify-content: space-around;
     font-size:18px;
     line-height:1.6;
     margin-bottom:0;
