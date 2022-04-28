@@ -6,8 +6,8 @@
 }
 /*Fond de page*/
 body {
-    background-color: #1c84c9;
-
+    background-color: #1c84c9b9;
+    /* opacity: 0.6;*/
 }
 
 /* Barre de navigation */
@@ -78,19 +78,20 @@ section img {
 
 .propos p {
     padding: 10px 10px 10px 10px;
-    word-break: break-all;
+    text-align: justify;
     color: #094f7d;
 }
 
 .high-page h2 {
     color: #094f7d;
     text-align: center;
-    padding-top: 10px;
+    padding-top: 15px;
     padding-bottom: 20px;
 }
 .second-nav a {
     color: #094f7d;
     text-decoration: none;
+    margin-top: 15px;
 }
 
 menu ol {
@@ -102,6 +103,104 @@ menu ol {
 ol a:hover {
     color: white;
 }
+/*section why mise en page*/
+.why {
+    padding: 20px;
+    width: 800px;
+    margin: auto;
+}
+
+p {
+    margin-bottom: 1em; 
+  }
+  
+.why h3 {
+    text-align: center;
+    padding: 10px;
+}
+
+.why p {
+    margin-left: 50px;
+    margin-right: 50px;
+    text-align: justify;
+}
+
+.why .point3 img {
+    
+    max-width : 800px;
+    height: auto;
+    display: block;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    -webkit-transform: scale(1);
+    transform: scale(1);
+    -webkit-transition: .3s ease-in-out;
+    transition: .3s ease-in-out;
+}
+.point3 img:hover {
+    -webkit-transform: scale(1.8);
+    transform: scale(1.8);
+}
+.point3 figcaption {
+    text-align: center;
+    font-size: 10px;
+    margin-top: -15px;
+}
+
+.point4 iframe {
+    width: 650px; 
+    height: 400px;
+    display: block;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: auto;
+    margin-right: auto
+}
+
+.point1 {
+    border: 2px double #1C6EA4;
+    padding-bottom: 10px;
+    margin: 5px;
+    
+}
+
+.point2 {
+    background-color: rgba(240, 248, 255, 0.797);
+    border: 2px double #1C6EA4;
+    padding-bottom: 10px;
+    margin: 5px;
+    color: #094f7d;
+}
+
+.point3 {
+    border: 2px double #1C6EA4;
+    padding-bottom: 10px;
+    margin: 5px;
+}
+
+.point4 {
+    background-color: rgba(240, 248, 255, 0.797);
+    border: 2px double #1C6EA4;
+    padding-bottom: 10px;
+    margin: 5px;
+    color: #094f7d;
+}
+
+.point5 {
+    border: 2px double #1C6EA4;
+    padding-bottom: 10px;
+    margin: 5px;
+}
+/* section .why {
+    background-image: url(Images\Jamaique\IMG_00012.JPG);   
+    background-repeat: no-repeat;
+    background-size: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+}*/
 
 /* footer*/
 .footer-basic {
