@@ -125,6 +125,27 @@ menu ol {
     align-items: center;
     padding: 6px;
 }
+/*Variante highpage2 sur les pages pays*/
+.high-page2 {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    margin: 10px;
+    padding: 2px;
+    background-color: rgba(240, 248, 255, 0.797);
+}
+
+.high-page2 h2 {
+    color: #094f7d;
+    text-align: center;
+    padding-top: 15px;
+    padding-bottom: 20px;
+}
+
+.high-page2 img {
+    margin-top: 15px;
+    max-width: 600px;
+    height: auto;
+}
 
 /*section why mise en page*/
 .why {
