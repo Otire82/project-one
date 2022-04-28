@@ -80,8 +80,9 @@ li a:hover {
 }
 
 section img {
-    width: 100%;
+    max-width: 500px;
     height: auto;
+
 }
 
 .propos p {
@@ -284,3 +285,6 @@ p {
     margin-bottom:0;
   }
   
+
+
+
