@@ -82,6 +82,7 @@ li a:hover {
 section img {
     max-width: 500px;
     height: auto;
+    margin-top: 10px;
 }
 
 .propos p {
@@ -304,7 +305,46 @@ p {
     color:#aaa;
     margin-bottom:0;
   }
+  /*Form contact*/
+
+
+  /*mise en forme tableau !! SERA DIFF selon page*/
+  table.paleBlueRows {
+    font-family: "Times New Roman", Times, serif;
+    border: 2px solid #FFFFFF;
+    width: 500px;
+    height: 200px;
+    text-align: center;
+    border-collapse: collapse;
+  }
+  table.paleBlueRows td, table.paleBlueRows th {
+    border: 1px solid #FFFFFF;
+    padding: 2px 1px;
+  }
+  table.paleBlueRows tbody td {
+    font-size: 12px;
+  }
+  table.paleBlueRows tr:nth-child(even) {
+    background: #D0E4F5;
+  }
+  table.paleBlueRows thead {
+    background: #0B6FA4;
+    border-bottom: 5px solid #FFFFFF;
+  }
+  table.paleBlueRows thead th {
+    font-size: 17px;
+    font-weight: bold;
+    color: #FFFFFF;
+    text-align: center;
+    border-left: 2px solid #FFFFFF;
+  }
+  table.paleBlueRows thead th:first-child {
+    border-left: none;
+  }
   
+  table.paleBlueRows tfoot td {
+    font-size: 14px;
+  }
 
 
 
