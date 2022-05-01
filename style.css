@@ -315,6 +315,7 @@ p {
     width: 500px;
     height: 200px;
     text-align: center;
+    color: #030000;
     border-collapse: collapse;
   }
   table.paleBlueRows td, table.paleBlueRows th {
@@ -327,8 +328,12 @@ p {
   table.paleBlueRows tr:nth-child(even) {
     background: #D0E4F5;
   }
+  table {
+    background: #5ba8dc;
+  }
+  
   table.paleBlueRows thead {
-    background: #0B6FA4;
+    background: #094f7d;
     border-bottom: 5px solid #FFFFFF;
   }
   table.paleBlueRows thead th {
