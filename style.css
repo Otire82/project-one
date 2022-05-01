@@ -323,7 +323,7 @@ p {
     padding: 2px 1px;
   }
   table.paleBlueRows tbody td {
-    font-size: 12px;
+    font-size: 16px;
   }
   table.paleBlueRows tr:nth-child(even) {
     background: #D0E4F5;
@@ -337,7 +337,7 @@ p {
     border-bottom: 5px solid #FFFFFF;
   }
   table.paleBlueRows thead th {
-    font-size: 17px;
+    font-size: 22px;
     font-weight: bold;
     color: #FFFFFF;
     text-align: center;
