@@ -351,5 +351,65 @@ p {
     font-size: 14px;
   }
 
+ /*Galeries escales*/
+ 
+.container {
+  display: flex;
+  width: 65vw;
+  margin: 0;
+  padding: 1px;
+  font-family: "Muli", sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  width: 100vw;
+  overflow: hidden;
+}
 
+.panel {
+  border: 2px solid #094f7d;
+  background-size: auto 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 80vh;
+  border-radius: 50px;
+  color: #fff;
+  cursor: pointer;
+  flex: 0.5;
+  margin: 0;
+  padding: 0;
+  position: relative;
+  transition: flex 0.7s ease-in;
+}
 
+.panel h3 {
+  font-size: 1rem;
+  position: absolute;
+  bottom: 0;
+  
+  left: 8em;
+  margin: 2rem;
+  background-color: #094f7d;
+  opacity: 0;
+  justify-content: center;
+}
+
+.panel.active {
+  flex: 5;
+}
+
+.panel.active h3 {
+  opacity: 1;
+  transition: opacity 0.3s ease-in 0.4s;
+}
+
+@media (max-width: 480px) {
+  .container {
+    width: 100vw;
+  }
+  .panel:nth-of-type(4),
+  .panel:nth-of-type(5) {
+    display: none;
+  }
+}
