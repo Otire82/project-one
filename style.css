@@ -244,6 +244,14 @@ p {
     color: #094f7d;
 }
 
+.conseil {
+ font-size: larger;
+ font-style: italic;
+ border: #094f7d 2px solid;
+ padding: 2px;
+ margin: 5px;
+}
+
 /* footer*/
 .footer-basic {
     padding:15px 0;
