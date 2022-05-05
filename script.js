@@ -18,7 +18,7 @@ const form = document.querySelector("form");
 const inputTodo = document.querySelector("#todoInput");
 const inputTodo2 = document.querySelector("#todoInput2");
 const todolist = document.querySelector("#myUl");
-
+const message = "Merci pour votre message.";
 
 form.onsubmit = function (event) {
 
@@ -34,5 +34,7 @@ form.onsubmit = function (event) {
 
   inputTodo.value = "";
   inputTodo2.value = "";
+
+  alert(message);
 };    
 

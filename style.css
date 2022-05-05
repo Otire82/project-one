@@ -491,6 +491,11 @@ input {
   color: #fff;
 }
 
+.Form h2{
+  border: #094f7d 1px solid;
+  margin: 15px;
+}
+
 @media (max-width: 480px) {
   .container {
     width: 100vw;
