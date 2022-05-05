@@ -35,14 +35,18 @@
                Vous pouvez laisser ici un commentaire. 
               </h2>
               <form class="form" action="">
-              <label for="name">Nom*
+              <label for="name">Prénom ou Pseudo (Obligatoire).
               </label>
-                    <input class="input" type="email" name="email" value="">
-                <label for="msg">Message
+                    <input class="input" id="todoInput" type="firstname" name="firstname" value="" required>
+                <label for="msg">Votre message.
               </label>
-                 <input class="input msg" type="textarea" name="msg" value="">
+                 <input class="input msg" id="todoInput2" type="textarea" name="msg" value="" required>
                 <button class="btn">Publier le Message</button>
                 </form>
+                <h2>Vos commentaires:</h2>
+                <ul id="myUl">
+                    
+                </ul>
               </div>  
             </section>
     
