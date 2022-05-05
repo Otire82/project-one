@@ -18,17 +18,39 @@
         <li><a href="escale.html">Escales</a></li>
         <li><a href="commentaire.html">Commentaires</a></li>
     </nav>
-    <div class="travaux">
+    <!--haut de page -->
+    <div class="travaux why">
         <img src="https://cdn.pixabay.com/photo/2018/01/04/15/51/404-error-3060993_960_720.png" alt="panneau travaux" />
-        <p>Le formulaire ci dessous fonctionne mais le commentaire restera invisible pour nous et pour vous, car cette fonctionnalité viendra plus tard. Merci?</p>
+        <p class="point2">Le formulaire ci dessous fonctionne mais le commentaire restera invisible pour nous et pour vous, car cette fonctionnalité viendra plus tard. Merci?</p>
     </div>
-    <div class="formulaire"></div>
+    <div class="formulaire">
         <img src="https://cdn.pixabay.com/photo/2016/05/28/07/05/book-1421097_960_720.jpg" alt="Livre d'or" />
-        <h1>Livre d'Or</h1>
-        <form>
+    </div>  
+        
            <!--Ajouter le form de comm avec du JS--> 
-        </form>
-    </div>
+           <section class="Form point2">
+            <div class="formContainer">
+              <h1 class="formTitle">Commentaires</h1>
+              <h2 class="formSubTitle">
+               Vous pouvez laisser ici un commentaire. 
+              </h2>
+              <form class="form" action="">
+              <label for="name">Prénom ou Pseudo (Obligatoire).
+              </label>
+                    <input class="input" id="todoInput" type="firstname" name="firstname" value="" required>
+                <label for="msg">Votre message.
+              </label>
+                 <input class="input msg" id="todoInput2" type="textarea" name="msg" value="" required>
+                <button class="btn">Publier le Message</button>
+                </form>
+                <h2>Vos commentaires:</h2>
+                <ul id="myUl">
+                    
+                </ul>
+              </div>  
+            </section>
+    
+            
     <div class="footer-basic">
         <footer>
             <div class="social">
