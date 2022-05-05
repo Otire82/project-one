@@ -412,6 +412,81 @@ p {
   transition: opacity 0.3s ease-in 0.4s;
 }
 
+/* Page commentaires*/
+.travaux img {
+  width: 150px;
+  height: auto;
+  text-align: center;
+  margin: auto;
+  display: flex;
+}
+
+.formulaire img {
+
+width: 70%;
+height: auto;
+text-align: center;
+margin: auto;
+display: flex;
+}
+
+.Form {
+  height: 100vh;
+  width: 100vw;
+}
+
+.formContainer {
+  width: 50%;
+  min-width: 300px;
+  margin: 0 auto;
+}
+
+.formTitle {
+  font-size: 50px;
+  margin-top: 50px;
+  text-align: center;
+  color: #005d8e ;
+}
+
+.formSubTitle {
+  font-size: 15px;
+  margin-top: 20px;
+  margin-bottom: 30px;
+  text-align: center;
+  color: #005d8e;
+}
+
+label {
+  display: block;
+  color: #005d8e;
+  margin-bottom: 5px;
+}
+
+input {
+  width: 100%;
+}
+
+.input {
+  margin-bottom: 20px;
+  height: 30px;
+}
+
+.msg {
+  height: 100px;
+}
+
+.btn {
+  height: 7vh;
+  width: 50.5vw;
+  font-size: 17px;
+  min-width: 300px;
+  margin-top: 10px;
+  box-shadow: 2px 2px 2px 0px rgba(0, 0, 0, 0.3);
+  background: #005d8e;
+  border: 1px solid #005d8e;
+  color: #fff;
+}
+
 @media (max-width: 480px) {
   .container {
     width: 100vw;

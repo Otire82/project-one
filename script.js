@@ -12,3 +12,16 @@ function removeActiveClasses() {
   });
 }
 
+
+
+var btn = document.querySelector('.btn');
+
+btn.addEventListener('click', function(){
+
+      for (let i = 0; i < input.length; i++){        
+        if(input.value === "")
+        {
+        alert('Veuillez remplir les champs manquants'); 
+         }
+      }
+});
