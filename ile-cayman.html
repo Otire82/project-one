@@ -3,9 +3,12 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="Description" content="Ce site est mon projet 1 de la Formation Dev Web & Appli, La première croisière est destinée aux personnes désirant faire une première croisière. Il y a quelques informations utiles pour préparer au mieux cette première croisière. L'exemple sur ce site est tiré de notre expérience personnel sur une première croisière.">
     <link rel="stylesheet" href="style.css">
     <title>La première croisière</title>
+    <link rel="apple-touch-icon" sizes="180x180" href="Images\icon\apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="Images\icon\favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="Images\icon\favicon-16x16.png">
 </head>
 <body>
     <!-- navbar identique sur toutes les pages à modifier les autres pages si retouches-->
@@ -34,7 +37,68 @@
             </menu>
         </div>
     </section>
-
+    <section class="tableaubelize">
+        <table class="paleBlueRows">
+            <thead>
+            <tr>
+                <th>DATE</th>
+                <th>PORT</th>
+                <th>Arrivée</th>
+                <th>Départ</th>
+                <th>Température</th>
+                <th>METEO</th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr>
+                <td>DIM 27/01/19</td>
+                <td>George Town, ILES CAYMAN</td>
+                <td>08:00</td>
+                <td>15:00</td>
+                <td>26°C</td>
+                <td><img src="Images\icon\soleil.png" alt="Soleil"/></td>
+            </tr>
+        </tbody>
+        </table>
+        <!-- Ajouter galerie photo et explication de l'escale + compléter tableau avec °C et emoticone météo-->
+        <section class="high-page">
+            <div class="presentation">
+                <h3> Jour 6 Les Iles Caymans. </h3>
+                <p>   
+                    Pour cette journée nous avons pris l’excursion de luxe au banc de sable de Stingray City. Nous avons pris un bateau pour nous rendre sur banc de sable à plusieurs dizaines de minutes de navigation. Une fois arrivée sur place à l’eau dans la mer des Caraïbes au milieu des Raies. Un moment plein d’émotion et à faire. Stingray City TRIPADVISOR . Quelques boissons locales et des magasins de souvenirs pour finir cette journée avant de remonter à bord de l’Opéra.                 
+                </p>
+            </div>
+        </section>
+        <div class="container">
+            <div class="panel active"
+                style="background-image: url(./Images/ile-cayman/46640704405_041b16f3ca_o.jpg);">
+                <h3>MSC Opéra</h3>
+            </div>
+            <div class="panel "
+                style="background-image: url(./Images/ile-cayman/46640991685_25d1c66a59_o.jpg);">
+                <h3>MSC Opéra</h3>
+            </div>
+            <div class="panel "
+                style="background-image: url(./Images/ile-cayman/46832534654_74813fded3_o.jpg);">
+                <h3>Bus avec des anciens tramway</h3>
+            </div>
+            <div class="panel "
+                style="background-image: url(./Images/ile-cayman/47503441252_09dea770a4_o.jpg);">
+                <h3>Ile-cayman</h3>
+            </div>
+            <div class="panel "
+                style="background-image: url(./Images/ile-cayman/IMG_0008.JPG);">
+                <h3>Ile-cayman</h3>
+            </div>
+            <div class="panel "
+                style="background-image: url(./Images/ile-cayman/IMG_0015.JPG);">
+                <h3>MSC Opéra</h3>
+            </div>
+            <div class="panel "
+                style="background-image: url(./Images/ile-cayman/IMG_0027.JPG);">
+                <h3>Ile-cayman</h3>
+            </div>
+        </div>
 <!-- Footer commun à toutes les pages-->
 <div class="footer-basic">
     <footer>
@@ -53,6 +117,7 @@
         </ul>
         <p class="copyright">TheOtire © 2022</p>
     </footer>
-</div>   
+</div>  
+<script src="script.js"></script> 
 </body>
 </html>

@@ -3,9 +3,12 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="Description" content="Ce site est mon projet 1 de la Formation Dev Web & Appli, La première croisière est destinée aux personnes désirant faire une première croisière. Il y a quelques informations utiles pour préparer au mieux cette première croisière. L'exemple sur ce site est tiré de notre expérience personnel sur une première croisière.">
     <link rel="stylesheet" href="style.css">
     <title>La première croisière</title>
+    <link rel="apple-touch-icon" sizes="180x180" href="Images\icon\apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="Images\icon\favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="Images\icon\favicon-16x16.png">
 </head>
 <body>
     <!-- navbar identique sur toutes les pages à modifier les autres pages si retouches-->
@@ -40,108 +43,64 @@
         <table class="paleBlueRows">
             <thead>
             <tr>
-                <th>head1</th>
-                <th>head2</th>
-                <th>head3</th>
-                <th>head4</th>
+                <th>DATE</th>
+                <th>PORT</th>
+                <th>Arrivée</th>
+                <th>Départ</th>
+                <th>Température</th>
+                <th>METEO</th>
             </tr>
             </thead>
             <tbody>
-            <tr>
-                <td>cell1_1</td>
-                <td>cell2_1</td>
-                <td>cell3_1</td>
-                <td>cell4_1</td>
-            </tr>
-            <tr>
-                <td>cell1_2</td>
-                <td>cell2_2</td>
-                <td>cell3_2</td>
-                <td>cell4_2</td>
-            </tr>
-            <tr>
-                <td>cell1_3</td>
-                <td>cell2_3</td>
-                <td>cell3_3</td>
-                <td>cell4_3</td>
-            </tr>
-            <tr>
-                <td>cell1_4</td>
-                <td>cell2_4</td>
-                <td>cell3_4</td>
-                <td>cell4_4</td>
-            </tr>
-            <tr>
-                <td>cell1_5</td>
-                <td>cell2_5</td>
-                <td>cell3_5</td>
-                <td>cell4_5</td>
-            </tr>
-            <tr>
-                <td>cell1_6</td>
-                <td>cell2_6</td>
-                <td>cell3_6</td>
-                <td>cell4_6</td>
-            </tr>
-            <tr>
-                <td>cell1_7</td>
-                <td>cell2_7</td>
-                <td>cell3_7</td>
-                <td>cell4_7</td>
-            </tr>
-            <tr>
-                <td>cell1_8</td>
-                <td>cell2_8</td>
-                <td>cell3_8</td>
-                <td>cell4_8</td>
-            </tr>
-            <tr>
-                <td>cell1_9</td>
-                <td>cell2_9</td>
-                <td>cell3_9</td>
-                <td>cell4_9</td>
-            </tr>
-            <tr>
-                <td>cell1_10</td>
-                <td>cell2_10</td>
-                <td>cell3_10</td>
-                <td>cell4_10</td>
-            </tr>
-            <tr>
-                <td>cell1_11</td>
-                <td>cell2_11</td>
-                <td>cell3_11</td>
-                <td>cell4_11</td>
-            </tr>
-            <tr>
-                <td>cell1_12</td>
-                <td>cell2_12</td>
-                <td>cell3_12</td>
-                <td>cell4_12</td>
-            </tr>
-            <tr>
-                <td>cell1_12</td>
-                <td>cell2_12</td>
-                <td>cell3_12</td>
-                <td>cell4_12</td>
-            </tr>
-            <tr>
-                <td>cell1_12</td>
-                <td>cell2_12</td>
-                <td>cell3_12</td>
-                <td>cell4_12</td>
-            </tr>
-            <tr>
-                <td>cell1_12</td>
-                <td>cell2_12</td>
-                <td>cell3_12</td>
-                <td>cell4_12</td>
+                <td>VEN 01/02/19</td>
+                <td>Belize, BELIZE</td>
+                <td>08:00</td>
+                <td>17:00</td>
+                <td>27°C</td>
+                <td><img src="Images\icon\soleil.png" alt="Soleil"/></td>
             </tr>
         </tbody>
         </table>
-
     </section>
-
+<!-- Ajouter galerie photo et explication de l'escale + compléter tableau avec °C et emoticone météo-->
+    <section class="high-page">
+        <div class="presentation">
+            <h3> Jour 11 Bélize. </h3>
+            <p>
+                Petit couac nous avions prévu d’aller faire du scooter des mers mais c’est tombé à l’eau, donc nous avons réussi à nous rabattre au dernier moment sur une journée sur une île privée avec des amis. La journée a été très bonne et trop détente par rapport a ce que nous avions prévus mais nous ne regrettons pas d’avoir goutter la cuisine locale et d’avoir pris plusieurs fois du piment doux pour moi mais apparemment fort. 
+            </p>
+        </div>
+    </section>
+    <div class="container">
+        <div class="panel active"
+            style="background-image: url(./Images/Belize/IMG_0274.JPG);">
+            <h3>MSC Opéra</h3>
+        </div>
+        <div class="panel "
+            style="background-image: url(./Images/Belize/IMG_0293.JPG);">
+            <h3>Mer des Caraïbes</h3>
+        </div>
+        <div class="panel "
+            style="background-image: url(./Images/Belize/IMG_0303.JPG);">
+            <h3>Arbre du Voyageur</h3>
+        </div>
+        <div class="panel "
+            style="background-image: url(./Images/Belize/IMG_0313.JPG);">
+            <h3>Etoile de mer</h3>
+        </div>
+        <div class="panel "
+            style="background-image: url(./Images/Belize/IMG_0316.JPG);">
+            <h3>Une île au calme</h3>
+        </div>
+        <div class="panel "
+            style="background-image: url(./Images/Belize/IMG_0318.JPG);">
+            <h3>Bernard l'hermite</h3>
+        </div>
+        <div class="panel "
+            style="background-image: url(./Images/Belize/IMG_0323.JPG);">
+            <h3>Mer des Caraïbes</h3>
+        </div>
+    </div>
 <!-- Footer commun à toutes les pages-->
 <div class="footer-basic">
     <footer>
@@ -160,6 +119,7 @@
         </ul>
         <p class="copyright">TheOtire © 2022</p>
     </footer>
-</div>   
+</div>  
+<script src="script.js"></script> 
 </body>
 </html>

@@ -3,9 +3,12 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="Description" content="Ce site est mon projet 1 de la Formation Dev Web & Appli, La première croisière est destinée aux personnes désirant faire une première croisière. Il y a quelques informations utiles pour préparer au mieux cette première croisière. L'exemple sur ce site est tiré de notre expérience personnel sur une première croisière.">
     <link rel="stylesheet" href="style.css">
     <title>La première croisière</title>
+    <link rel="apple-touch-icon" sizes="180x180" href="Images\icon\apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="Images\icon\favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="Images\icon\favicon-16x16.png">
 </head>
 <body>
     <!-- navbar identique sur toutes les pages à modifier les autres pages si retouches-->
@@ -34,7 +37,92 @@
             </menu>
         </div>
     </section>
-
+    <section class="tableaubelize">
+        <table class="paleBlueRows">
+            <thead>
+            <tr>
+                <th>DATE</th>
+                <th>PORT</th>
+                <th>Arrivée</th>
+                <th>Départ</th>
+                <th>Température</th>
+                <th>METEO</th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr>
+                <td>DIM 03/02/19</td>
+                <td>Costa Maya, MEXIQUE</td>
+                <td>08:00</td>
+                <td>18:00</td>
+                <td>27°C</td>
+                <td><img src="Images\icon\soleil.png" alt="Soleil"/></td>
+            </tr>
+        </tbody>
+        </table>
+        <!-- Ajouter galerie photo et explication de l'escale + compléter tableau avec °C et emoticone météo-->
+        <section class="high-page">
+            <div class="presentation">
+                <h3> Jour 13 Mexique. </h3>
+                <p>
+                    Nous sommes allés faire du snorkeling sur les barrières de Corail du Mexique ou nous avons eu la chance de suivre une tortue géante sur plusieurs mètres. La journée c’est terminé près de l’embarcadère pour savourer quelques boissons locales pendant un match de Catch mexicain.
+                </p>
+            </div>
+        </section>  
+        <div class="container">
+            <div class="panel active"
+                style="background-image: url(./Images/Costa-maya/IMG_0556.JPG);">
+                <h3>MSC Opéra</h3>
+            </div>
+            <div class="panel "
+                style="background-image: url(./Images/Costa-maya/IMG_0564.JPG);">
+                <h3>Aigrette blanche</h3>
+            </div>
+            <div class="panel "
+                style="background-image: url(./Images/Costa-maya/IMG_0565.JPG);">
+                <h3>Pelican</h3>
+            </div>
+            <div class="panel "
+                style="background-image: url(./Images/Costa-maya/IMG_0568.JPG);">
+                <h3>Iguane</h3>
+            </div>
+            <div class="panel "
+                style="background-image: url(./Images/Costa-maya/IMG_0572.JPG);">
+                <h3>Costa-Maya</h3>
+            </div>
+            <div class="panel "
+                style="background-image: url(./Images/Costa-maya/IMG_0575.JPG);">
+                <h3>Costa-Maya</h3>
+            </div>
+            <div class="panel "
+                style="background-image: url(./Images/Costa-maya/IMG_0582.JPG);">
+                <h3>Costa-Maya</h3>
+            </div>
+            <div class="panel "
+                style="background-image: url(./Images/Costa-maya/IMG_0589.JPG);">
+                <h3>Flamant Rose</h3>
+            </div>
+            <div class="panel "
+                style="background-image: url(./Images/Costa-maya/IMG_5529.jpg);">
+                <h3>Couché de soleil</h3>
+            </div>
+            <div class="panel "
+                style="background-image: url(./Images/Costa-maya/IMG_5539.jpg);">
+                <h3>Costa-Maya</h3>
+            </div>
+            <div class="panel "
+                style="background-image: url(./Images/Costa-maya/IMG_5552.jpg);">
+                <h3>cocktail</h3>
+            </div>
+            <div class="panel "
+                style="background-image: url(./Images/Costa-maya/IMG_5564.jpg);">
+                <h3>MSC Opéra</h3>
+            </div>
+            <div class="panel "
+                style="background-image: url(./Images/Costa-maya/IMG_5583.jpg);">
+                <h3>Costa-Maya</h3>
+            </div>
+        </div> 
 <!-- Footer commun à toutes les pages-->
 <div class="footer-basic">
     <footer>
@@ -54,5 +142,6 @@
         <p class="copyright">TheOtire © 2022</p>
     </footer>
 </div>   
+<script src="script.js"></script>
 </body>
 </html>

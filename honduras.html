@@ -3,9 +3,12 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="Description" content="Ce site est mon projet 1 de la Formation Dev Web & Appli, La première croisière est destinée aux personnes désirant faire une première croisière. Il y a quelques informations utiles pour préparer au mieux cette première croisière. L'exemple sur ce site est tiré de notre expérience personnel sur une première croisière.">
     <link rel="stylesheet" href="style.css">
     <title>La première croisière</title>
+    <link rel="apple-touch-icon" sizes="180x180" href="Images\icon\apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="Images\icon\favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="Images\icon\favicon-16x16.png">
 </head>
 <body>
     <!-- navbar identique sur toutes les pages à modifier les autres pages si retouches-->
@@ -34,7 +37,88 @@
             </menu>
         </div>
     </section>
-
+    <section class="tableaubelize">
+        <table class="paleBlueRows">
+            <thead>
+            <tr>
+                <th>DATE</th>
+                <th>PORT</th>
+                <th>Arrivée</th>
+                <th>Départ</th>
+                <th>Température</th>
+                <th>METEO</th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr>
+                <td>SAM 02/02/19</td>
+                <td>Ile de Roatan, HONDURAS</td>
+                <td>08:00</td>
+                <td>17:00</td>
+                <td>27°C</td>
+                <td><img src="Images\icon\soleil.png" alt="Soleil"/></td>
+            </tr>
+        </tbody>
+        </table>
+        <!-- Ajouter galerie photo et explication de l'escale + compléter tableau avec °C et emoticone météo-->
+        <section class="high-page">
+            <div class="presentation">
+                <h3> Jour 12 Honduras. </h3>
+                <p>
+                    Nous avons choisi de faire une visite de l’île en bus avec beaucoup d’étapes différentes ou nous pouvions nous promener libre, par chance notre guide est français et installé depuis plus de 30 ans sur cette île. De belles vues et des baignades inoubliables au milieu des coraux. Gros coup de cœur comme la Jamaïque même si la sécurité est un peu compliquée au moment où nous étions, nous n’avons pas vécu de situation dangereuse mais il est vrai que nous avions des escortes de police sur armée sur les différents sites.  
+                </p>
+            </div>
+        </section>
+        <div class="container">
+            <div class="panel active"
+                style="background-image: url(./Images/Honduras/33680189298_e19d3744fe_o.jpg);">
+                <h3>Bateau de pêche</h3>
+            </div>
+            <div class="panel "
+                style="background-image: url(./Images/Honduras/33680225338_a0b2095d3c_o.jpg);">
+                <h3>Mer des Caraïbes</h3>
+            </div>
+            <div class="panel "
+                style="background-image: url(./Images/Honduras/40590711483_2635b8c0e5_o.jpg);">
+                <h3>Plage privée Honduras</h3>
+            </div>
+            <div class="panel "
+                style="background-image: url(./Images/Honduras/40590859613_6c18e9a1bf_o.jpg);">
+                <h3>Plage privée Honduras</h3>
+            </div>
+            <div class="panel "
+                style="background-image: url(./Images/Honduras/46641346955_dd15533a9a_o.jpg);">
+                <h3>Mer des Caraïbes</h3>
+            </div>
+            <div class="panel "
+                style="background-image: url(./Images/Honduras/46641353145_9fd5900a71_o.jpg);">
+                <h3>Mer des Caraïbes</h3>
+            </div>
+            <div class="panel "
+                style="background-image: url(./Images/Honduras/46641387085_9774856834_o.jpg);">
+                <h3>Mer des Caraïbes</h3>
+            </div>
+            <div class="panel "
+                style="background-image: url(./Images/Honduras/46641487855_b0047e23f2_o.jpg);">
+                <h3>Vue sur la mer des Caraïbes</h3>
+            </div>
+            <div class="panel "
+                style="background-image: url(./Images/Honduras/46833172464_b5b3d1681e_o.jpg);">
+                <h3>Mangrove</h3>
+            </div>
+            <div class="panel "
+                style="background-image: url(./Images/Honduras/47503938402_43d3f5ea6f_o.jpg);">
+                <h3>Mer des Caraïbes</h3>
+            </div>
+            <div class="panel "
+                style="background-image: url(./Images/Honduras/47504044302_33b9b9d5ba_o.jpg);">
+                <h3>Plage privée</h3>
+            </div>
+            <div class="panel "
+                style="background-image: url(./Images/Honduras/47504117192_81066b147a_o.jpg);">
+                <h3>Comme une carte postale</h3>
+            </div>
+        </div> 
 <!-- Footer commun à toutes les pages-->
 <div class="footer-basic">
     <footer>
@@ -53,6 +137,7 @@
         </ul>
         <p class="copyright">TheOtire © 2022</p>
     </footer>
-</div>   
+</div>  
+<script src="script.js"></script> 
 </body>
 </html>

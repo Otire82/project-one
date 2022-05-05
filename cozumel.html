@@ -3,9 +3,12 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="Description" content="Ce site est mon projet 1 de la Formation Dev Web & Appli, La première croisière est destinée aux personnes désirant faire une première croisière. Il y a quelques informations utiles pour préparer au mieux cette première croisière. L'exemple sur ce site est tiré de notre expérience personnel sur une première croisière.">
     <link rel="stylesheet" href="style.css">
     <title>La première croisière</title>
+    <link rel="apple-touch-icon" sizes="180x180" href="Images\icon\apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="Images\icon\favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="Images\icon\favicon-16x16.png">
 </head>
 <body>
     <!-- navbar identique sur toutes les pages à modifier les autres pages si retouches-->
@@ -34,7 +37,102 @@
             </menu>
         </div>
     </section>
-
+    <section class="tableaubelize">
+        <table class="paleBlueRows">
+            <thead>
+            <tr>
+                <th>DATE</th>
+                <th>PORT</th>
+                <th>Arrivée</th>
+                <th>Départ</th>
+                <th>Température</th>
+                <th>METEO</th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr>
+                <td>LUN 28/01/19</td>
+                <td>Cozumel, MEXIQUE</td>
+                <td>10:00</td>
+                <td>18:30</td>
+                <td>23°C</td>
+                <td><img src="Images\icon\nuageux.png" alt="Nuageux"/></td>
+            </tr>
+            <tr>
+                <td>LUN 04/02/19</td>
+                <td>Cozumel, MEXIQUE</td>
+                <td>07:00</td>
+                <td>17:00</td>
+                <td>28°C</td>
+                <td><img src="Images\icon\soleil.png" alt="Soleil"/></td>
+            </tr>
+        </tbody>
+        </table>
+        <!-- Ajouter galerie photo et explication de l'escale + compléter tableau avec °C et emoticone météo-->
+        <section class="high-page">
+            <div class="presentation">
+                <h3> Jour 7 Mexique.</h3>
+                <p>
+                    Nous avons choisi d’aller voir les ruines de Tulum Mayan avec un guide en Français et beaucoup d’explications et de question sur ce peuple disparu. Une visite très enrichissante et dans l’ambiance de la fête des morts du Mexique. Tulum Mayan TRIPADVISOR  . Le soir un petit plaisir au repas avec du Homard, il faut se faire plaisir c’est le jour de mon anniversaire. 
+                </p>
+            </div>
+            <div>
+                <h3>Jour 14 Mexique.</h3>
+                <p>
+                    Pour cette journée nous avions prévu de nous rendre au grand parc de Xcaret, mais vu que nous n'allions pas avoir beaucoup de temps nous avons préféré nous organiser pour cette journée. Nous avons pris un Taxi pour nous rendre sur une petite plage privée au calme pour y passer toute la journée. Tacos, Guacamole, Bière, baignade, transat. Au final nous avons bien profité de cette superbe journée. Dernière soirée sur le bateau nous avons repris du homard.
+                </p>
+            </div>
+        </section>
+        <div class="container">
+            <div class="panel active"
+                style="background-image: url(./Images/Cozumel/IMG_0601.JPG);">
+                <h3>Plage Palancar Beach Club</h3>
+            </div>
+            <div class="panel "
+                style="background-image: url(./Images/Cozumel/IMG_5160.jpg);">
+                <h3>Tulum</h3>
+            </div>
+            <div class="panel "
+                style="background-image: url(./Images/Cozumel/IMG_5180.jpg);">
+                <h3>Iguane Tulum</h3>
+            </div>
+            <div class="panel "
+                style="background-image: url(./Images/Cozumel/IMG_5191.jpg);">
+                <h3>Tulum Maya</h3>
+            </div>
+            <div class="panel "
+                style="background-image: url(./Images/Cozumel/IMG_5197.jpg);">
+                <h3>Plage Tulum</h3>
+            </div>
+            <div class="panel "
+                style="background-image: url(./Images/Cozumel/IMG_5225.jpg);">
+                <h3>Plage Tulum</h3>
+            </div>
+            <div class="panel "
+                style="background-image: url(./Images/Cozumel/IMG_5249.jpg);">
+                <h3>Tulum</h3>
+            </div>
+            <div class="panel "
+                style="background-image: url(./Images/Cozumel/IMG_5287.jpg);">
+                <h3>MSC Opéra</h3>
+            </div>
+            <div class="panel "
+                style="background-image: url(./Images/Cozumel/IMG_5295.jpg);">
+                <h3>Couché de soleil</h3>
+            </div>
+            <div class="panel "
+                style="background-image: url(./Images/Cozumel/IMG_5318.jpg);">
+                <h3>Homard restaurant MSC Opéra</h3>
+            </div>
+            <div class="panel "
+                style="background-image: url(./Images/Cozumel/IMG_5597.jpg);">
+                <h3>Palancar Beach Club</h3>
+            </div>
+            <div class="panel "
+                style="background-image: url(./Images/Cozumel/IMG_5631.jpg);">
+                <h3>Repas Palancar Beach Club</h3>
+            </div>
+        </div> 
 <!-- Footer commun à toutes les pages-->
 <div class="footer-basic">
     <footer>
@@ -53,6 +151,7 @@
         </ul>
         <p class="copyright">TheOtire © 2022</p>
     </footer>
-</div>   
+</div>  
+<script src="script.js"></script> 
 </body>
 </html>
