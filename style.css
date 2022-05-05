@@ -317,6 +317,12 @@ p {
 
 
   /*mise en forme tableau !! SERA DIFF selon page*/
+.why .paleBlueRows {
+  text-align: center;
+  margin: auto;
+
+}
+
   table.paleBlueRows {
     font-family: "Times New Roman", Times, serif;
     border: 2px solid #FFFFFF;
@@ -325,6 +331,7 @@ p {
     text-align: center;
     color: #030000;
     border-collapse: collapse;
+    
   }
   table.paleBlueRows td, table.paleBlueRows th {
     border: 1px solid #FFFFFF;
@@ -357,6 +364,14 @@ p {
   
   table.paleBlueRows tfoot td {
     font-size: 14px;
+  }
+
+  /*Page acceuil escale*/
+ .j0  {
+   display: flex;
+    text-align: center;
+    margin: auto;
+    padding: 10px;
   }
 
  /*Galeries escales*/
