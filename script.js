@@ -18,7 +18,7 @@ const form = document.querySelector("form");
 const inputTodo = document.querySelector("#todoInput");
 const inputTodo2 = document.querySelector("#todoInput2");
 const todolist = document.querySelector("#myUl");
-
+const message = "Merci pour votre message.";
 
 form.onsubmit = function (event) {
 
@@ -28,50 +28,13 @@ form.onsubmit = function (event) {
   
   newTodo.innerHTML = inputTodo.value;
   todolist.appendChild(newTodo);
-  newTodo2.innerHTML = inputTodo.value;
+  newTodo2.innerHTML = inputTodo2.value;
   todolist.appendChild(newTodo2);
   
 
   inputTodo.value = "";
   inputTodo2.value = "";
+
+  alert(message);
 };    
 
-
-/*
-const btn = document.querySelector('.btn');
-
-btn.addEventListener('click', function(){}
-
-      for (let i = 0; i < input.length; i++){        
-        if(input.value === "")
-        {
-        alert('Veuillez remplir les champs manquants'); 
-         }
-      }
-});
-
-function newElement() {
-  let li = document.createElement("li");
-  let inputValue = document.getElementById(".input").value;
-  let t = document.createTextNode(inputValue);
-  li.appendChild(t);
-  if (inputValue === '') {
-    alert("Veuillez remplir les champs manquants!");
-  } 
-  else {
-    document.getElementById("myUL").appendChild(li)
-  };
-  document.getElementById(".input").value = "";
-
-  let span = document.createElement("span");
-  let txt = document.createTextNode("\u00D7");
-  span.className = "close";
-  span.appendChild(txt);
-  li.appendChild(span);
-
-  for (i = 0; i < close.length; i++) {
-    close[i].onclick = function() {
-      var div = this.parentElement;
-      div.style.display = "none";
-    }
-  }} */
