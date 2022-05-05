@@ -170,6 +170,13 @@ p {
     text-align: justify;
 }
 
+.why h2{
+  text-align: center;
+  background-color: #005d8e;
+  color: white;
+  margin: 20px;
+}
+
 .why .point3 img {
     
     max-width : 700px;
@@ -219,6 +226,11 @@ p {
     color: #094f7d;
 }
 
+ .valise {
+  text-align: center;
+  display: flex;
+  margin: auto;
+}
 .point2 {
     background-color: rgba(240, 248, 255, 0.797);
     border: 2px double #1C6EA4;
@@ -254,9 +266,18 @@ p {
 .conseil {
  font-size: larger;
  font-style: italic;
- border: #094f7d 2px solid;
- padding: 2px;
- margin: 5px;
+ background-color: #094f7d;
+ color: white;
+ padding: 0px;
+ margin-left: 20px;
+}
+
+/*float images info*/
+.point1 img .float1 {
+  height: 150px;
+  width: auto;
+  
+
 }
 
 /* footer*/
