@@ -43,3 +43,17 @@ form.onsubmit = function (event) {
   alert(message);
 };    
 
+
+/*Test Parallax */
+/*const parralax = document.querySelectorAll('.parallax');
+
+addEventListener('scroll' , function() {
+  let scrollOffset = window.scrollY;
+  parralax.forEach(function(parralax) {
+  parralax.style.backgroundPositionY = (scrollOffset - parralax.offsetTop) * 0.7  + "px"
+  })
+  
+})
+window.addEventListener('scroll', ()=> {
+  parallax.style.backgroundPositionY = -window.scrollY / 2 + "px";
+});*/
