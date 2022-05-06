@@ -51,25 +51,6 @@ li a:hover {
     color: white;
 }
 
-/*media@ navbar */
- @media screen and (max-width: 800px) {
-    .navbar  {
-        float: none;
-        display: block;
-        border-top: 1px solid transparent;
-        box-shadow: inset 0 1px 0 rgba(255,255,255,0.1);
-        margin: 0px -15px; 
-        margin-top: 0;
-        font-size: 15px;  
-        text-shadow: none;    
-    }
-}
- @media screen and (max-width:600px) {
-    nav img {
-        max-width: 80px;  
-    }
-}
-
 /* section high page*/
 .high-page {
     display: grid;
@@ -238,7 +219,12 @@ p {
     margin: 5px;
     color: #094f7d;
 }
-
+.point2 .paquebot{
+  display: flex;
+  text-align: center;
+  margin: auto;
+  padding-top: 10px;
+}
 .point3 {
     background-color: rgba(240, 248, 255, 0.797);
     border: 2px double #1C6EA4;
@@ -273,11 +259,56 @@ p {
 }
 
 /*float images info*/
-.point1 img .float1 {
+p,img.float1{
+  margin-bottom: 10px;
+}
+
+img.float1 {
+  float: left;
+  height: 100px;
+  padding-left: 50px;
+  padding-right: 10px;
+  /*border: #005d8e 1px solid;
+  border-radius: 10px;*/
+}
+
+img.float2 {
+  float: right;
   height: 150px;
   width: auto;
-  
+  padding-left: 20px;
+  padding-right: 50px;
+  border-radius: 10px;
+}
 
+img.float3{
+  float: left;
+  height: 150px;
+  padding-left: 50px;
+  padding-right: 20px;
+  border-radius: 10px;
+}
+
+/*documents page info*/
+
+.document {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.daily{
+  max-width: 200px;
+  height: auto;
+  margin: 10px;
+}
+
+.document img{
+  -webkit-transition: .3s ease-in-out;
+  transition: .3s ease-in-out;
+}
+.document img:hover{
+  -webkit-transform: scale(3);
+    transform: scale(3);
 }
 
 /* footer*/
@@ -341,8 +372,6 @@ p {
     color:#aaa;
     margin-bottom:0;
   }
-  /*Form contact*/
-
 
   /*mise en forme tableau !! SERA DIFF selon page*/
 .why .paleBlueRows {
@@ -546,5 +575,29 @@ input {
   .panel:nth-of-type(4),
   .panel:nth-of-type(5) {
     display: none;
+  }
+}
+
+/*media@ navbar */
+@media screen and (max-width: 800px) {
+  .navbar  {
+      float: none;
+      display: block;
+      border-top: 1px solid transparent;
+      box-shadow: inset 0 1px 0 rgba(255,255,255,0.1);
+      margin: 0px -15px; 
+      margin-top: 0;
+      font-size: 15px;  
+      text-shadow: none; 
+      color: white;   
+  }
+}
+@media screen and (max-width:600px) {
+  nav img {
+      max-width: 50px;  
+  }
+
+  .navbar {
+    color: white;  
   }
 }
