@@ -177,9 +177,9 @@ p {
     transform: scale(1.8);
 }
 
-.point1 img:hover{
-  -webkit-transform: scale(1.3);
-  transform: scale(1.3);
+.point4 img:hover{
+  -webkit-transform: scale(0.8);
+  transform: scale(0.8);
   transition: .5s ease ;
 }
 
@@ -218,6 +218,7 @@ p {
   text-align: center;
   display: flex;
   margin: auto;
+  padding-top: 5px;
 }
 .point2 {
     background-color: rgba(240, 248, 255, 0.797);
@@ -263,6 +264,15 @@ p {
  color: white;
  padding: 0px;
  margin-left: 20px;
+}
+
+p.conse{
+ border: #005d8e 1px solid;
+ padding: 5px;
+}
+
+.conseil4{
+  margin-top: 30px;
 }
 
 /*float images info*/
