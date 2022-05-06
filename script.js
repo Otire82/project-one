@@ -26,11 +26,11 @@ const todolist = document.querySelector("#myUl");
 const message = "Merci pour votre message.";
 
 form.onsubmit = function (event) {
-
+/* Creation li et p pour intégrer les 2 données */
   event.preventDefault();
   const newTodo = document.createElement("li");
   const newTodo2 =document.createElement("p");
-  
+/* intégration des données */
   newTodo.innerHTML = inputTodo.value;
   todolist.appendChild(newTodo);
   newTodo2.innerHTML = inputTodo2.value;
@@ -39,7 +39,7 @@ form.onsubmit = function (event) {
 
   inputTodo.value = "";
   inputTodo2.value = "";
-
+/* message de confirmation prise en compte */
   alert(message);
 };    
 
