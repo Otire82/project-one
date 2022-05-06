@@ -1,3 +1,5 @@
+/*Galerie photo*/
+
 const panels = document.querySelectorAll(".panel");
 
 panels.forEach((panel) => {
@@ -11,6 +13,7 @@ function removeActiveClasses() {
     panel.classList.remove("active");
   });
 }
+
 
 /*Formulaire contact*/ 
 
