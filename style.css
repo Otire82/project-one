@@ -109,9 +109,11 @@ menu ol {
 }
 /*Variante highpage2 sur les pages pays*/
 .high-page2 {
-    display: grid;
-    grid-template-columns: 2fr 1fr;
+    display: flex;
+    justify-content: space-around;
     margin: 10px;
+    margin-left: 50px;
+    margin-right: 50px;
     padding: 2px;
     background-color: rgba(240, 248, 255, 0.797);
 }
@@ -602,7 +604,8 @@ input {
 }
 
 /*media@ 800px */
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 800px) 
+{
   .navbar  {
       float: none;
       display: block;
@@ -614,10 +617,16 @@ input {
       text-shadow: none; 
         
   }
+
+  .high-page2 img {
+    max-width: 100px;
+    height: auto;
+  }
 }
 
 /*media@ 600px */
-@media screen and (max-width:600px) {
+@media screen and (max-width:600px) 
+{
   nav img {
       max-width: 50px;  
   }
@@ -644,12 +653,34 @@ input {
     line-height: 1px; 
     padding: 5px; 
     border-radius: 10px
-    font-family: Georgia, serif; 
+   }  
    
-   }   
+   .high-page2 {
+     text-align: center;
+     display: grid ;
+    max-width: 300px;
+    height: auto;
+  }
+
+  .high-page2 img {
+    min-width: 250px;
+  }
+
  .why {
    width: auto;
+   font-size: 12px;
  }
+
+ table.paleBlueRows thead th{
+  font-size: 12px;
+ }
+table.paleBlueRows {
+  width: 100%;
+  height: 100%; 
+}
+table.paleBlueRows tbody td {
+  font-size: 10px;
+}
 
  .why img{
    max-width: 50%;
@@ -664,6 +695,9 @@ input {
    -webkit-transform: none;
    transform: none;
  }
+ .why .point3 .media{
+   display: none;
+ }
  .point4 iframe{
    width: auto;
    height: auto;
@@ -671,5 +705,19 @@ input {
  .list-inline-item {
    font-size: 10px;
  }
- 
+ /*responsive à faire galerie photo*/
+ .container{
+
+ }
+ /*responsive à faire formulaire*/
+
+ .formulaire img{
+   width: 90%;
+ }
+ .Form .formTitle{
+   font-size: 16px;
+ }
+ .Form .formSubTitle{
+   font-size: 12px;
+ }
 }
