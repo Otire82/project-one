@@ -1,7 +1,5 @@
 * {
     font-family: 'Comic', 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    padding: 0px;
-    margin: 0px;
     box-sizing: border-box;
 }
 /*Fond de page*/
@@ -15,7 +13,7 @@ body {
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
-  margin:0 auto;
+  
 }
 
 /* Barre de navigation */
@@ -321,7 +319,7 @@ img.float3{
   padding-bottom: 50px;
 }
 .daily{
-  max-width: 200px;
+  max-width: 250px;
   height: auto;
   margin: 10px;
 }
@@ -380,7 +378,7 @@ img.float3{
   text-align:center;
   border-radius:50%;
   border:1px solid #ccc;
-  margin:0 8px;
+  
   color:inherit;
   opacity:0.75;
 }
@@ -457,15 +455,16 @@ table.paleBlueRows tfoot td {
  
 .container {
   display: flex;
-  width: 65vw;
-  margin: 0;
-  padding: 1px;
+  width: 80%;
+  margin: 5px;
+  padding: 0px;
   font-family: "Muli", sans-serif;
   display: flex;
+  text-align: center;
   align-items: center;
   justify-content: center;
-  height: 100vh;
-  width: 100vw;
+  height: 80vh;
+  width: auto;
   overflow: hidden;
 }
 
@@ -478,7 +477,7 @@ table.paleBlueRows tfoot td {
   border-radius: 50px;
   color: #fff;
   cursor: pointer;
-  flex: 0.5;
+  flex: 0.3;
   margin: 0;
   padding: 0;
   position: relative;
@@ -486,14 +485,14 @@ table.paleBlueRows tfoot td {
 }
 
 .panel h3 {
-  font-size: 1rem;
+  font-size: 2rem;
   position: absolute;
   bottom: 0;
-  left: 8em;
+  left: 30%;
   margin: 2rem;
   background-color: #094f7d;
   opacity: 0;
-  justify-content: center;
+  text-align: center;
 }
 
 .panel.active {
@@ -588,16 +587,6 @@ input {
   margin: 15px;
 }
 
-@media (max-width: 480px) {
-  .container {
-    width: 100vw;
-  }
-  .panel:nth-of-type(4),
-  .panel:nth-of-type(5) {
-    display: none;
-  }
-}
-
 /*media@ 800px */
 @media screen and (max-width: 800px) {
   nav img{
@@ -637,8 +626,7 @@ input {
 }
 
 /*media@ 600px */
-@media screen and (max-width:600px) 
-{
+@media screen and (max-width:600px) {
   nav img {
     max-width: 50px;  
   }
@@ -774,3 +762,16 @@ input {
     margin: 12px;
  }
 }
+@media (max-width: 480px) {
+  * {
+    width: 100%;
+  }
+  .container {
+    width: 100vw;
+  }
+  .panel:nth-of-type(4),
+  .panel:nth-of-type(5) {
+    display: none;
+  }
+}
+
