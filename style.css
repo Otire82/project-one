@@ -134,7 +134,7 @@ menu ol {
 /*section why mise en page*/
 .why {
   padding: 20px;
-  width: 800px;
+  width: 80%;
   margin: auto;
 }
 
@@ -336,8 +336,8 @@ img.float3{
 }
 
 /* footer*/
-.footer-basic {
-  padding:15px 0;
+.footer-basic { 
+  padding: 15px;
   background-color: rgba(240, 248, 255, 0.797);
   color:#4b4c4d;
 }
@@ -614,6 +614,11 @@ input {
     text-shadow: none;   
   }
 
+  .high-page {
+    display: block; 
+    text-align: center;
+  }
+
   .high-page2 img {
     max-width: 400px;
     height: auto;
@@ -626,7 +631,9 @@ input {
     padding: 5px; 
     border-radius: 10px
    }  
-   /*voir pour le tableau cette partie*/
+  .formTitle {
+    font-size: 30px;
+  }
 }
 
 /*media@ 600px */
@@ -638,10 +645,6 @@ input {
   
  .navbar li {
     color: white;
-  }
-
-  .high-page {
-    display: block; 
   }
 
   .high-page img{
@@ -709,8 +712,6 @@ input {
    font-size: 10px;
  }
  /*responsive à faire galerie photo*/
- 
- /*responsive à faire formulaire*/
  section.Form.point2{
    margin-top: 10px;
    width: 90%;
