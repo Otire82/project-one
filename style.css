@@ -710,14 +710,68 @@ table.paleBlueRows tbody td {
 
  }
  /*responsive à faire formulaire*/
+ section.Form.point2{
+   margin-top: 10px;
+   width: 90%;
+   margin-left: 30px;
+ }
+ div.formContainer {
+   margin: 0px;
+
+  width: 50%;
+  
+}
 
  .formulaire img{
-   width: 90%;
+   width: 50%;
+   
  }
- .Form .formTitle{
-   font-size: 16px;
- }
- .Form .formSubTitle{
-   font-size: 12px;
- }
+ 
+ .Form {
+  height: auto;
+  width: 50%;
+  text-align: center;
+}
+
+.formContainer {
+  width: 50%;
+  margin-left: -10px;
+}
+
+.formTitle {
+  font-size: 16px;
+  margin-top: 0px;
+}
+
+.formSubTitle {
+  font-size: 12px;
+  text-align: center;
+}
+
+label {
+  font-size: 12px;
+  text-align: center;
+}
+
+input {
+  width: 80%%;
+}
+
+.input {
+  margin-bottom: 10px;
+  height: 30px;
+}
+
+.msg {
+  height: 80px;
+}
+
+.btn {
+  height: 4vh;
+  font-size: 14px;
+}
+
+.Form h2{
+  margin: 12px;
+}
 }
