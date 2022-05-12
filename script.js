@@ -43,7 +43,6 @@ form.onsubmit = function (event) {
   alert(message);
 };    
 
-
 /*Test Parallax */
 /*const parralax = document.querySelectorAll('.parallax');
 
