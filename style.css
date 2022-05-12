@@ -159,7 +159,7 @@ p {
 }
 
 .why .point3 img {
-  max-width : 700px;
+  max-width : 100%;
   height: auto;
   display: block;
   margin-top: 20px;
@@ -290,7 +290,7 @@ img.float1 {
 
 img.float2 {
   float: right;
-  height: 150px;
+  max-height: 150px;
   width: auto;
   margin-left: 10px;
   margin-right: 50px;
@@ -610,10 +610,23 @@ input {
     display: block; 
     text-align: center;
   }
-
+  .point2 img{
+    width: 100%;
+  }
+  .point3 img{
+    width: 100%;
+  }
+  .point4 iframe {
+    max-width: 100%;
+    min-height: auto;
+  }
   .high-page2 img {
     max-width: 400px;
     height: auto;
+  }
+   .float2 img{
+    max-width: 100%;
+    min-height: auto;
   }
   .second-nav a {
     color: #094f7d;
@@ -637,7 +650,9 @@ input {
  .navbar li {
     color: white;
   }
-
+  .high-page{
+    margin: 0;
+  }
   .high-page img{
     width: 100%;
     height: auto;
@@ -658,14 +673,29 @@ input {
     max-width: 300px;
     height: auto;
   }
-
-  .high-page2 img {
-    min-width: 250px;
+  menu{
+    padding-left: 0px;
   }
+  .high-page2 img {
+    width: 100%;
+  }
+ .point4{
+   margin: 0px;
+ }
+ .conseil4 {
+   margin: 0;
+   padding: 2px;
+ }
 
  .why {
    width: auto;
    font-size: 12px;
+ }
+ .why p{
+   margin: 2px;
+ }
+ .why h2{
+   margin: 2px
  }
 
  table.paleBlueRows thead th{
@@ -680,9 +710,9 @@ input {
  }
 
  .why img{
-   max-width: 50%;
+   max-width: 40%;
    height: auto;
-   margin: 0px;
+   margin: 2px;
    text-align: center;
    margin: auto;
  }
@@ -703,13 +733,15 @@ input {
    font-size: 10px;
  }
  /*responsive à faire galerie photo*/
+ .container h3{
+   font-size: 14px;
+ }
  section.Form.point2{
    margin-top: 10px;
    width: 90%;
-   margin-left: 30px;
+   margin: auto;
   }
  div.formContainer {
-   margin: 0px;
    width: 50%;
   }
 
@@ -725,7 +757,6 @@ input {
 
   .formContainer {
     width: 50%;
-    margin-left: -10px;
  }
 
   .formTitle {
@@ -749,7 +780,7 @@ input {
 
   .input {
     margin-bottom: 10px;
-    height: 30px;
+    height: 20px;
  }
 
   .msg {
@@ -763,13 +794,19 @@ input {
 
   .Form h2{
     margin: 12px;
+    border: 2px solid;
+ }
+  #myUl {
+    padding-left: 0px;
+ }
+
+ .footer-basic .social{
+   padding-bottom: 0px;
  }
 }
 /*media@ 480px*/
 @media screen and (max-width: 480px) {
-  * {
-    width: 100%;
-  }
+  
   .container {
     width: 100vw;
   }
