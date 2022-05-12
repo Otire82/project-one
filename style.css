@@ -82,7 +82,7 @@ section img {
   color: rgb(255, 255, 255);
   font-size: 15px; 
   line-height: 16px; 
-  padding: 8px; 
+  padding: 8px;
   border-radius: 12px; 
   font-family: Georgia, serif; 
   font-weight: normal; 
@@ -282,27 +282,30 @@ p,img.float1{
 img.float1 {
   float: left;
   height: 100px;
-  padding-left: 50px;
-  padding-right: 10px;
-  /*border: #005d8e 1px solid;
-  border-radius: 10px;*/
+  margin-left: 50px;
+  margin-right: 10px;
+  border: #005d8e 1px solid;
+  border-radius: 20px;
 }
 
 img.float2 {
   float: right;
   height: 150px;
   width: auto;
-  padding-left: 20px;
-  padding-right: 50px;
-  border-radius: 10px;
+  margin-left: 10px;
+  margin-right: 50px;
+  border: #005d8e 1px solid;
+  border-radius: 20px;
+
 }
 
 img.float3{
   float: left;
   height: 150px;
-  padding-left: 50px;
-  padding-right: 20px;
-  border-radius: 10px;
+  margin-left: 50px;
+  margin-right: 10px;
+  border: #005d8e 1px solid;
+  border-radius: 20px;
 }
 
 .point1 .float3 {
@@ -762,7 +765,8 @@ input {
     margin: 12px;
  }
 }
-@media (max-width: 480px) {
+/*media@ 480px*/
+@media screen and (max-width: 480px) {
   * {
     width: 100%;
   }
