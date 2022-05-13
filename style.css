@@ -1,6 +1,7 @@
 * {
     font-family: 'Comic', 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     box-sizing: border-box;
+    margin: 0px;
 }
 /*Fond de page*/
 :root {
@@ -680,7 +681,7 @@ input {
     width: 100%;
   }
  .point4{
-   margin: 0px;
+   margin: 5px;
  }
  .conseil4 {
    margin: 0;
