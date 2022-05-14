@@ -1,6 +1,7 @@
 * {
     font-family: 'Comic', 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     box-sizing: border-box;
+    margin: 0px;
 }
 /*Fond de page*/
 :root {
@@ -590,6 +591,14 @@ input {
   margin: 15px;
 }
 
+/*Responsive background image fixed ne fonctionne pas sur IOS problème connu*/
+/*media@ 1000px*/
+@media screen and (max-width: 1000px) {
+  .why{
+    width: 70%;
+  }
+}
+
 /*media@ 800px */
 @media screen and (max-width: 800px) {
   nav img{
@@ -639,6 +648,9 @@ input {
   .formTitle {
     font-size: 30px;
   }
+  .why{
+    width: 70%;
+  }
 }
 
 /*media@ 600px */
@@ -680,7 +692,7 @@ input {
     width: 100%;
   }
  .point4{
-   margin: 0px;
+   margin: 5px;
  }
  .conseil4 {
    margin: 0;
@@ -688,7 +700,7 @@ input {
  }
 
  .why {
-   width: auto;
+   width: 85%;
    font-size: 12px;
  }
  .why p{
@@ -813,6 +825,9 @@ input {
   .panel:nth-of-type(4),
   .panel:nth-of-type(5) {
     display: none;
+  }
+  .why{
+    width: 95%;
   }
 }
 
