@@ -28,7 +28,7 @@ const message = "Merci pour votre message.";
 form.onsubmit = function (event) {
 /* Creation li et p pour intégrer les 2 données */
   event.preventDefault();
-  const newTodo = document.createElement("li");
+  const newTodo = document.createElement("ul");
   const newTodo2 =document.createElement("p");
 /* intégration des données */
   newTodo.innerHTML = inputTodo.value;
