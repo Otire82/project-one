@@ -12,7 +12,7 @@
     <link rel="icon" type="image/png" sizes="16x16" href="Images/icon/favicon-16x16.png">
 </head>
 <body>
-    <nav class="navbar">
+    <div class="navbar">
         <li>
             <ul><a href="index.html"> Accueil</a></ul>
             <ul><a href="info.html">Info-utiles</a></ul>
@@ -20,7 +20,7 @@
             <ul><a href="escale.html">Escales</a></ul>
             <ul><a href="commentaire.html">Commentaires</a></ul>
         </li>
-    </nav>
+    </div>
     <!--haut de page -->
     <div class="travaux why">
         <img src="https://cdn.pixabay.com/photo/2018/01/04/15/51/404-error-3060993_960_720.png" alt="panneau travaux" />
@@ -28,50 +28,42 @@
     </div>
     <div class="formulaire">
         <img src="Images/logo/179410e74df7094e4bdcc987f440d8a9.gif" alt="Livre d'or" />
-    </div>  
-        
-           <!--Ajouter le form de comm avec du JS--> 
-           <section class="Form point2">
-            <div class="formContainer">
-              <h1 class="formTitle">Commentaires</h1>
-              <h2 class="formSubTitle">
-               Vous pouvez laisser ici un commentaire. 
-              </h2>
-              <form class="form" action="">
-              <label for="name">Prénom ou Pseudo (Obligatoire).
-              </label>
-                    <input class="input" id="todoInput" type="firstname" name="firstname" value="" required>
-                <label for="msg">Votre message.
-              </label>
-                 <input class="input msg" id="todoInput2" type="textarea" name="msg" value="" required>
-                <button class="btn">Publier le Message</button>
-                </form>
-                <h2 class="formSubTitle">Vos commentaires:</h2>
-                <li id="myUl">
-                    
-                </li>
-              </div>  
-            </section>
-    
-            
-    <div class="footer-basic">
-        <footer>
-            <div class="social">
-                <a src="https://discord.com/login" target="_blank"> <img src="Images/icon/icons8-discorde-50.png" alt="icone discord"/></a>
-                <a href="https://www.notion.so/11a077e9322c41c98a37d3ef2d682051" target="_blank"> <img src="Images/icon/icons8-notion-50.png" alt="icone notion"/></a>
-                <a href="https://twitter.com/?lang=fr" target="_blank"> <img src="Images/icon/icons8-twitter-50.png" alt="icone twitter"/></a>
-                <a href="https://www.facebook.com/jeanne.aurelien/" target="_blank"> <img src="Images/icon/icons8-facebook-50.png" alt="icone facebook"/></a>
-                <a href="https://www.youtube.com/channel/UCv9xcG4nvuGhiqC7oDcluIQ" target="_blank"> <img src="Images/icon/icons8-youtube-50.png" alt="icone youtube"/></a>
-            </div>
-            <li class="list-inline">
-                <ul class="list-inline-item"><a href="index.html">Acceuil</a></ul>
-                <ul class="list-inline-item"><a href="info.html">Info-utiles</a></ul>
-                <ul class="list-inline-item"><a href="escale.html">Escales</a></ul>
-                <ul class="list-inline-item"><a href="commentaire.html">Commentaires</a></ul>
-            </li>
-            <p class="copyright">TheOtire © 2022</p>
-        </footer>
-    </div> 
+    </div>      
+    <!--Ajouter le form de comm avec du JS--> 
+    <section class="Form point2">
+        <div class="formContainer">
+            <h1 class="formTitle">Commentaires</h1>
+            <h2 class="formSubTitle">
+            Vous pouvez laisser ici un commentaire. 
+            </h2>
+            <form class="form" action="">
+            <label for="name">Prénom ou Pseudo (Obligatoire).
+            </label>
+                <input class="input" id="todoInput" type="firstname" name="firstname" value="" required>
+            <label for="msg">Votre message.
+            </label>
+                <input class="input msg" id="todoInput2" type="textarea" name="msg" value="" required>
+            <button class="btn">Publier le Message</button>
+            </form>
+            <h2 class="formSubTitle">Vos commentaires:</h2>
+            <li id="myUl"></li>
+        </div>  
+    </section><div class="footer-basic">
+        <div class="social">
+            <a src="https://discord.com/login" target="_blank"> <img src="Images/icon/icons8-discorde-50.png" alt="icone discord"/></a>
+            <a href="https://www.notion.so/11a077e9322c41c98a37d3ef2d682051" target="_blank"> <img src="Images/icon/icons8-notion-50.png" alt="icone notion"/></a>
+            <a href="https://twitter.com/?lang=fr" target="_blank"> <img src="Images/icon/icons8-twitter-50.png" alt="icone twitter"/></a>
+            <a href="https://www.facebook.com/jeanne.aurelien/" target="_blank"> <img src="Images/icon/icons8-facebook-50.png" alt="icone facebook"/></a>
+            <a href="https://www.youtube.com/channel/UCv9xcG4nvuGhiqC7oDcluIQ" target="_blank"> <img src="Images/icon/icons8-youtube-50.png" alt="icone youtube"/></a>
+        </div>
+        <li class="list-inline">
+            <ul class="list-inline-item"><a href="index.html">Acceuil</a></ul>
+            <ul class="list-inline-item"><a href="info.html">Info-utiles</a></ul>
+            <ul class="list-inline-item"><a href="escale.html">Escales</a></ul>
+            <ul class="list-inline-item"><a href="commentaire.html">Commentaires</a></ul>
+        </li>
+        <p class="copyright">TheOtire © 2022</p>
+    </div>
     <script src="script.js"></script>   
 </body>
 </html>
