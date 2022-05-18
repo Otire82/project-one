@@ -20,8 +20,8 @@ function removeActiveClasses() {
 /*Formulaire contact*/ 
 
 const form = document.querySelector("form");
-const inputTodo = document.querySelector("#todoInput");
-const inputTodo2 = document.querySelector("#todoInput2");
+const inputTodo = document.querySelector("#name");
+const inputTodo2 = document.querySelector("#msg");
 const todolist = document.querySelector("#myUl");
 const message = "Merci pour votre message.";
 
